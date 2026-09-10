@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlowForge CI/CD</title>
+    <meta
+      name="description"
+      content="FlowForge helps teams automate builds, testing, and deployment with reliable CI/CD pipelines."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav">
+          <div class="brand" aria-label="FlowForge home">
+            <span class="brand-mark">F</span>
+            <span>FlowForge</span>
+          </div>
+          <nav class="nav-links" aria-label="Main navigation">
+            <a href="#features">Features</a>
+            <a href="#workflow">Workflow</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a class="nav-cta" href="#contact">Get started</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Continuous delivery, simplified</p>
+              <h1>Ship faster with reliable CI/CD pipelines.</h1>
+              <p class="lead">
+                Automate builds, tests, and deployments across every environment so your team can focus on shipping quality software.
+              </p>
+              <div class="hero-actions">
+                <a class="primary-btn" href="#contact">Start free trial</a>
+                <a class="secondary-btn" href="#workflow">View workflow</a>
+              </div>
+              <ul class="mini-proof" aria-label="Platform highlights">
+                <li>10x faster releases</li>
+                <li>99.9% uptime</li>
+                <li>24/7 visibility</li>
+              </ul>
+            </div>
+
+            <div class="hero-visual" aria-label="CI/CD pipeline preview">
+              <div class="panel pipeline-panel">
+                <div class="panel-header">
+                  <span class="dot green"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot red"></span>
+                </div>
+                <div class="pipeline-steps">
+                  <div class="step active">
+                    <span class="step-label">Build</span>
+                    <span class="step-pill">Running</span>
+                  </div>
+                  <div class="step">
+                    <span class="step-label">Test</span>
+                    <span class="step-pill">Queued</span>
+                  </div>
+                  <div class="step">
+                    <span class="step-label">Deploy</span>
+                    <span class="step-pill">Ready</span>
+                  </div>
+                  <div class="step">
+                    <span class="step-label">Monitor</span>
+                    <span class="step-pill">Live</span>
+                  </div>
+                </div>
+                <div class="status-card">
+                  <div>
+                    <span class="status-caption">Deployment status</span>
+                    <strong>Production Healthy</strong>
+                  </div>
+                  <span class="status-badge">+12.4%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats" aria-label="Key metrics">
+          <div class="container stats-grid">
+            <div>
+              <strong>14k+</strong>
+              <span>Pipelines automated</span>
+            </div>
+            <div>
+              <strong>68%</strong>
+              <span>Faster deployments</span>
+            </div>
+            <div>
+              <strong>2.3x</strong>
+              <span>More release confidence</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>Monitoring coverage</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="features">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Why teams choose FlowForge</p>
+              <h2>Everything your delivery pipeline needs.</h2>
+            </div>
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="icon-box cyan">⚡</div>
+                <h3>Build automation</h3>
+                <p>Trigger builds the moment code is pushed and keep every branch deploy-ready with consistent automation.</p>
+              </article>
+              <article class="feature-card">
+                <div class="icon-box purple">🧪</div>
+                <h3>Quality checks</h3>
+                <p>Run linting, tests, security scans, and dependency validation before code reaches production.</p>
+              </article>
+              <article class="feature-card">
+                <div class="icon-box green">🚀</div>
+                <h3>Safe deployments</h3>
+                <p>Ship updates with zero-downtime strategies, rollback controls, and environment-specific release gates.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="workflow" class="workflow">
+          <div class="container">
+            <div class="section-heading left-align">
+              <p class="eyebrow">Simple workflow</p>
+              <h2>From commit to production in a few clicks.</h2>
+            </div>
+            <div class="workflow-steps">
+              <div class="step-card">
+                <span class="num">01</span>
+                <h3>Connect your repo</h3>
+                <p>Integrate GitHub, GitLab, or Bitbucket in minutes with native automation hooks.</p>
+              </div>
+              <div class="step-card">
+                <span class="num">02</span>
+                <h3>Run automated checks</h3>
+                <p>Validate code quality, security posture, and test health before each release stage.</p>
+              </div>
+              <div class="step-card">
+                <span class="num">03</span>
+                <h3>Deploy with confidence</h3>
+                <p>Push to staging or production using automated approvals, canary rollout, and instant rollback.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing" class="cta-strip">
+          <div class="container cta-box">
+            <div>
+              <p class="eyebrow">Ready to modernize your release process?</p>
+              <h2>Launch more often without sacrificing stability.</h2>
+            </div>
+            <a class="primary-btn" href="#contact">Book a demo</a>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="footer">
+        <div class="container footer-inner">
+          <div class="brand small-brand">
+            <span class="brand-mark">F</span>
+            <span>FlowForge</span>
+          </div>
+          <p>Powering disciplined delivery for modern teams.</p>
+          <a href="mailto:hello@flowforge.io">hello@flowforge.io</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
